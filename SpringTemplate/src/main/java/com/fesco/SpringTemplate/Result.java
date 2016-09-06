@@ -1,5 +1,7 @@
 package com.fesco.SpringTemplate;
 
+import org.springframework.util.SocketUtils;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -21,6 +23,7 @@ public class Result {
 
 	public void setIp(String ip) {
 		this.ip = ip;
+		System.out.println("");
 	}
 
 
